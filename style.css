@@ -151,6 +151,7 @@ body {
 .title {
     margin-bottom: 1rem;
     font-weight: 600;
+    font-size: 1.2rem;
 }
 
 .cards {
@@ -224,5 +225,32 @@ body {
 
 .trendings {
     display: grid;
+    gap: 1rem;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 5%;
+}
+
+.trending {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.trending img {
+    clip-path: circle();
+    max-height: 2.5rem;
+}
+
+.dog {
+    background-color: aliceblue;
+}
+
+.spidey {
+    background-color: grey;
+}
+
+.kitten {
+    background-color: rgb(255, 200, 97);
 }
 
