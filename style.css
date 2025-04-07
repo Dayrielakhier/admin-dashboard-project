@@ -162,6 +162,7 @@ body {
 .project {
     background-color: white;
     padding: 1.5rem;
+    padding-bottom: 2.5rem;
     border-radius: 5%;
     position: relative;
     overflow: hidden;
@@ -181,8 +182,44 @@ body {
     font-weight: 700;
 }
 
+.project > div:nth-child(2) {
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.reaction {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    right: 30%;
+    bottom: 10%;
+}
+
 .anns {
     display: grid;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5%;
+}
+
+.ann:not(:last-child) {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid gray;
+}
+
+.ann:not(:first-child) {
+    padding-top: 1rem;
+}
+
+.ann > div:first-child {
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.ann > div:nth-child(2) {
+    font-weight: 300;
+    font-size: 0.75rem;
 }
 
 .trendings {
