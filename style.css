@@ -219,7 +219,7 @@ body {
 
 .ann:not(:last-child) {
     padding-bottom: 1rem;
-    border-bottom: 1px solid gray;
+    border-bottom: 1.5px solid rgb(201, 201, 201);
 }
 
 .ann:not(:first-child) {
